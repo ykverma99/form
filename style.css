@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 64.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  height: 100vh;
+}
+
+.form {
+  background: linear-gradient(35deg, rgba(3, 253, 170, 0.986), rgba(255, 45, 255, 0.849));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form .form-container {
+  background-color: white;
+  height: 395px;
+  width: 345px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 9px 1px #0f0f0f;
+}
+
+.form__title {
+  text-align: center;
+  padding: 1.3rem;
+  color: rgba(0, 0, 0, 0.918);
+  letter-spacing: 0.9px;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 2.5rem 1rem 2.5rem;
+}
+.form__input .input__username, .form__input .input__password {
+  width: 290px;
+  border: 0;
+  padding: 0.5em 0 0.1em 0.2em;
+  border-bottom: 1.5px solid black;
+  letter-spacing: 0.8px;
+  margin: 2rem 0 1rem 0rem;
+}
+.form__input .input__username:focus, .form__input .input__password:focus {
+  outline: 1px solid grey;
+  border-radius: 3px;
+}
+
+.forget__password {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+  position: relative;
+  left: 8%;
+  top: 3%;
+  color: rgba(0, 0, 0, 0.651);
+  margin-bottom: 1.5rem;
+}
+.forget__password:hover {
+  color: black;
+}
+
+.form__button {
+  text-align: center;
+  margin: 3rem;
+}
+.form__button .button__sign-in {
+  width: 280px;
+  padding: 0.8em 0;
+  background: linear-gradient(12deg, rgba(255, 45, 255, 0.849), rgba(3, 253, 170, 0.986));
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.form__button .button__sign-in:hover {
+  box-shadow: 1px 1px 10px 0 rgba(179, 30, 238, 0.644);
+}
+
+.form__check {
+  text-align: center;
+}
+.form__check .form__sign-up {
+  text-decoration: none;
+  color: #0066ff;
+}
+
+/*# sourceMappingURL=style.css.map */
